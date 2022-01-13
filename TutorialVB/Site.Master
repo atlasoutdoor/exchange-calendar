@@ -1,0 +1,21 @@
+﻿<%@ Master Language="vb" AutoEventWireup="true" CodeFile="Site.master.vb" Inherits="SiteMaster" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+	<meta charset="UTF-8" />
+	<title>Loading Calendar Events from Exchange Server (Office 365) using EWS (ASP.NET)</title>
+	<link href="~/Media/layout.css" rel="stylesheet" type="text/css" />
+	<asp:ContentPlaceHolder ID="HeadContent" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+	<form runat="server">        
+		<div class="header">
+			<h1><a href='http://code.daypilot.org/81086/loading-calendar-events-from-exchange-server-office-365-ews'>Loading Calendar Events from Exchange Server (Office 365) using EWS (ASP.NET)</a></h1>
+			<div><a href="http://www.daypilot.org/">DayPilot</a> - AJAX Calendar/Scheduling Controls for ASP.NET</div>
+		</div>
+		<div class="main">
+			<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"/>
+		</div>
+	</form>
+</body>
+</html>

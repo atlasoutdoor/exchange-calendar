@@ -1,0 +1,9 @@
+﻿p, body, td { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 10pt; }
+body { padding: 0px; margin: 0px; background-color: #ffffff; }
+a { color: #1155a3; }
+.space { margin: 10px 0px 10px 0px; }
+
+.header { background: #001328 url('layout/header-in.png') 50% 0 no-repeat; padding:20px 10px; width:100%; color: white; box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.75); }
+.header a { color: white;}
+.header h1 { padding: 0px; margin: 0px; }
+.main { padding: 10px }
